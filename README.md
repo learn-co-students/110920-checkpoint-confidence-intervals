@@ -67,7 +67,7 @@ Hint: Here's a link to a [z-table](https://www.math.arizona.edu/~rsims/ma464/sta
 # your written answer here
 ```
 
-2.b) Imagine that we didn't know how the population of check totals was distributed. How would **sampling** and the **Central Limit Theorem** allow us to **make inferences on the population mean**, i.e. estimate $\mu, \sigma$ of the population mean?
+2b) Imagine that we didn't know how the population of check totals was distributed. How would **sampling** and the **Central Limit Theorem** allow us to **make inferences on the population mean**, i.e. estimate $\mu, \sigma$ of the population mean?
 
 
 ```python
