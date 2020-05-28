@@ -28,7 +28,7 @@ def z_score(check_amt):
     return score
 ```
 
-#### 1b) Approximately what percentage of all checks are less than \\$26? Explain how you came to your answer.
+#### 1b) Approximately what percentage of all checks are less than $26? Explain how you came to your answer.
 
 You can answer this using the empirical rule or this [z-table](https://www.math.arizona.edu/~rsims/ma464/standardnormaltable.pdf).
 
@@ -41,7 +41,7 @@ Written answer here
 
 ### 2. Confidence Intervals
 
-One night, a waiter gets 15 checks with a mean of \\$19 and a standard deviation of \\$3.
+One night, a waiter gets 15 checks with a mean of \\$19 and a standard deviation of $3
 
 #### 2a) Calculate the 95% confidence interval around the mean for this waitor's checks
 
