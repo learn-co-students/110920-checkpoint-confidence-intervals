@@ -13,7 +13,7 @@ Say we have check totals for all checks ever written at a TexMex restaurant.
 
 The distribution for this population of check totals happens to be normally distributed with a population mean of $\mu = 20$ and population standard deviation of $\sigma = 3$. 
 
-#### 1b) Compute the z-score for a \\$26 check. 
+#### 1a) Compute the z-score for a \\$26 check. 
 
 Complete the code in the function below and calculate the answer
 
