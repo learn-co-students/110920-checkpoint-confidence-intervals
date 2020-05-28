@@ -19,7 +19,7 @@ from scipy import stats
 
 Say we have check totals for all checks ever written at a TexMex restaurant. 
 
-The distribution for this population of check totals happens to be normally distributed with a population mean of $\mu = 20$ and population standard deviation of $\sigma = 3$. 
+The distribution for this population of check totals happens to be normally distributed with a population mean of 20 dollars and population standard deviation of 3 dollars
 
 #### 1a) Compute the z-score for a 26 dollar check. 
 
