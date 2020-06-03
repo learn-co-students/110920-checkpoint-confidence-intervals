@@ -130,14 +130,19 @@ Your written answer here
 ```python
 # __SOLUTION__
 """
-A 95% confidence interval means that there is a 95% chance for the
-interval to contain the true population mean. In this case, that means 
-there is a 95% chance that the true population mean is between 17.5 and 20.5
+A 95% confidence interval means that, if confidence intervals were generated over and 
+over again, using the same method, 95% of the confidence intervals generated will contain 
+the true population mean. 
 
-INCORRECT: a confidence interval contains 95% of all values that samples can have.
+In this case of looking at a single confidence interval, that means we cannot reject
+the values between 17.5 and 20.5 for estimates of the mean of checks as a whole with 
+an alpha of .05
 
-INCORRECT: a confidence interval contains 95% of all values in the population.
+INCORRECT: a .05 alpha confidence interval contains 95% of all values that samples can have.
 
-INCORRECT: there is a 95% chance that the values of the checks the waiter got that night are between 17.5 and 20.5
+INCORRECT: a .05 alpha confidence interval contains 95% of all values in the population.
+
+INCORRECT: there is a 95% chance that the values of the checks the waiter got that 
+night are between 17.5 and 20.5
 """
 ```
