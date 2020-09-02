@@ -2,7 +2,7 @@
 
 
 ```python
-# import the necessary libraries
+# run this cell without changes
 import numpy as np
 from scipy import stats
 ```
