@@ -7,14 +7,6 @@ import numpy as np
 from scipy import stats
 ```
 
-
-```python
-# __SOLUTION__ 
-# run this cell without changes
-import numpy as np
-from scipy import stats
-```
-
 ### 1. Normal Distributions
 
 Say we have check totals for all checks ever written at a TexMex restaurant. 
@@ -27,18 +19,12 @@ Complete the code in the function below and use it to calculate the answer
 
 
 ```python
-def z_score(check_amt):
-    """
-    check_amt = the amount for which we want to compute the z-score
-    """
-    
-    score = #your code here
-    return score
-```
+### BEGIN SOLUTION
 
 
-```python
-# __SOLUTION__ 
+from test_scripts.test_class import Test
+test = Test()
+
 def z_score(check_amt):
     
     """ Using the formula (X - mu)/std """
@@ -46,25 +32,39 @@ def z_score(check_amt):
     return (check_amt - 20)/3
 
 print('My check has a z-score of {}.'.format(z_score(26)))
+
+test.save()
+
+
+
+### END SOLUTION
 ```
 
     My check has a z-score of 2.0.
 
 
+
+```python
+# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL
+# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS
+
+### BEGIN HIDDEN TESTS
+
+from test_scripts.test_class import Test
+test = Test()
+
+test.run_test()
+
+
+### END HIDDEN TESTS
+```
+
 #### 1b) Approximately what percentage of all checks are less than 26 dollars? Explain how you came to your answer.
 
 You can answer this using the empirical rule or this [z-table](https://www.math.arizona.edu/~rsims/ma464/standardnormaltable.pdf).
 
+=== BEGIN MARK SCHEME ===
 
-```python
-"""
-Written answer here
-"""
-```
-
-
-```python
-# __SOLUTION__
 """
 According to the empirical rule, 95% of check amounts will be within 
 about two standard deviations from the mean. A 26 dollar check amount is 
@@ -73,17 +73,8 @@ this region, we get 97.5%
 
 Looking up 2.00 in the z-table, we find the answer is 97.7%
 """
-```
 
-    
-    According to the empirical rule, 95% of check amounts will be within 
-    about two standard deviations from the mean. A 26 dollar check amount is 
-    just at the top end of this region. Adding in the 2.5% of amounts below 
-    this region, we get 97.5%
-    
-    Looking up 2.00 in the z-table, we find the answer is 97.7%
-    
-
+=== END MARK SCHEME ===
 
 ### 2. Confidence Intervals
 
@@ -93,12 +84,12 @@ One night, a waiter gets 15 checks with a mean of 19 dollars and standard deviat
 
 
 ```python
-#Your code here
-```
+### BEGIN SOLUTION
 
 
-```python
-#__SOLUTION__
+from test_scripts.test_class import Test
+test = Test()
+
 
 
 mu = 19
@@ -108,25 +99,37 @@ n = 15
 sterr = std/(n**0.5)
 conf = (mu - 1.96*sterr, mu + 1.96*sterr)
 print('The 95% confidence interval is ', conf)
+
+test.save()
+
+
+
+### END SOLUTION
 ```
 
     The 95% confidence interval is  (17.48179052828669, 20.51820947171331)
 
 
-#### 2b) Interpret the result
-
 
 ```python
-"""
+# PUT ALL WORK FOR THE ABOVE QUESTION ABOVE THIS CELL
+# THIS UNALTERABLE CELL CONTAINS HIDDEN TESTS
 
-Your written answer here
+### BEGIN HIDDEN TESTS
 
-"""
+from test_scripts.test_class import Test
+test = Test()
+
+test.run_test()
+
+
+### END HIDDEN TESTS
 ```
 
+#### 2b) Interpret the result
 
-```python
-# __SOLUTION__
+=== BEGIN MARK SCHEME ===
+
 """
 A 95% confidence interval means that, if confidence intervals were generated over and 
 over again, using the same method, 95% of the confidence intervals generated will contain 
@@ -143,4 +146,5 @@ INCORRECT: a .05 alpha confidence interval contains 95% of all values in the pop
 INCORRECT: there is a 95% chance that the values of the checks the waiter got that 
 night are between 17.5 and 20.5
 """
-```
+
+=== END MARK SCHEME ===
