@@ -2,7 +2,7 @@
 
 
 ```python
-# import the necessary libraries
+# run this cell without changes
 import numpy as np
 from scipy import stats
 ```
@@ -10,7 +10,7 @@ from scipy import stats
 
 ```python
 # __SOLUTION__ 
-# import the necessary libraries
+# run this cell without changes
 import numpy as np
 from scipy import stats
 ```
@@ -34,8 +34,6 @@ def z_score(check_amt):
     
     score = #your code here
     return score
-
-#Use the function here to calculate your score
 ```
 
 
