@@ -2,7 +2,7 @@
 
 
 ```python
-# import the necessary libraries
+# run this cell without changes
 import numpy as np
 from scipy import stats
 ```
@@ -26,8 +26,6 @@ def z_score(check_amt):
     
     score = #your code here
     return score
-
-#Use the function here to calculate your score
 ```
 
 #### 1b) Approximately what percentage of all checks are less than 26 dollars? Explain how you came to your answer.
